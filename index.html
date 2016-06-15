@@ -17,19 +17,20 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="white" role="navigation">
+
+  <nav class="green" role="navigation">
     <div class="nav-wrapper container">
-      <img id="logo-container" src="pix/Tlogo.png" class="brand-logo">Logo</img>
       <ul class="right hide-on-med-and-down">
+      <img id="logo-container" src="pix/Tlogo.png" class="brand-logo center"></img>
         <li><a href="about.html">About</a></li>
         <li><a href="resume.html">Resume</a></li>
       </ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="about.html">About</a></li>
-        <li><a href="resume.html">Resume</a></li>
+      <ul id="nav-mobile" class="side-nav green ">
+        <li><a class ="white-text" href="about.html">About</a></li>
+        <li><a  class ="white-text" href="resume.html">Resume</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><img id="logo-container" src="pix/Tlogo.png" class="brand-logo"></img></a>
     </div>
   </nav>
 
@@ -37,7 +38,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Welcome to my online Resume</h1>
+        <h1 class="header center green-text text-lighten-2">Welcome to my online Resume</h1>
         <div class="row center">
           <h5 class="header col s12 light">Me working on my craft</h5>
         </div>
@@ -50,26 +51,29 @@
   </div>
 
 
-
+<div class ="midintro">
   <div class="container">
     <div class="section">
-
       <div class="row">
         <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h3><i class="mdi-content-send blue-text"></i></h3>
           <h4>Contact Me</h4>
           <p class="left-align light">Hello, this is my person resume website. I go into a little about me as a developer and as a person. I would love to talk with you in the future, so be sure to contact me. Links provided below. </p>
         </div>
       </div>
     </div>
   </div>
+</div>
 
 
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 Bold">Making it better</h5>
+        <div class="row">
+          <h4 class="header col s12 center">You are never too old to set another goal or to dream a new dream. </h4>
+		<br/>
+		<br/>
+		<h5 class="header right"> - C. S. Lewis</h5>
         </div>
       </div>
     </div>
@@ -77,8 +81,8 @@
   </div>
 
 
-
-   <div id="content"></div>
+<!---
+<div id="content"></div>
     <script type="text/jsx">
     
         var TsComponent = React.createClass({
@@ -103,39 +107,28 @@
         </div>
         , document.getElementById('content'));
     </script>
-
-  <footer class="page-footer teal">
+-->
+  <footer class="page-footer green">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Here is the footer</h5>
-          <p class="grey-text text-lighten-4">I am a guy who is teaching himself code. I will never know all that I want, but that doesn't mean stop trying. Donate to feed my code/video game habbit. Steam is nice.</p>
-
-
+          <p class="grey-text text-lighten-4">I am a guy who is teaching himself code. I will never know all that I want, but that doesn't mean stop trying. I accept all tips, monetary and educational. </p>
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
+        <div class="col l3 s12 center">
+          <h5 class="white-text">Professional Links</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+          <div class="smalllink">
+            <li><a  href="https://github.com/TSTEADMAN21"><img src="pix/githubicon.png"></a></li>
+            <li><a  href="https://www.linkedin.com/in/travissteadman"><img src="pix/linkedin.png"></a></li>
+            </div>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+     	Travis Steadman
       </div>
     </div>
   </footer>

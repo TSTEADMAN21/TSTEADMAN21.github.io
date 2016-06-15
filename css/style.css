@@ -59,3 +59,11 @@ footer.page-footer {
   height:100px;
   width:125px;
 }
+
+.smalllink img {
+  height:50px;
+  width:50px;
+}
+.midintro{
+  background-color: #4caf50;
+}
